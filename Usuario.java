@@ -28,7 +28,16 @@ public class Usuario {
          System.out.println("Novo canal---> "+ smartTv.canal);
          smartTv.aumentarCanal();
          System.out.println("Novo canal---> "+ smartTv.canal);
-        
+         
+    smartTv.escolherApp();
+    System.out.println("App->"+ smartTv.app1);
+    smartTv.aumentarResolução();
+    System.out.println("RESOLUÇÃO ATUAL-->" + smartTv.resolução);  
+}
+    
+    
+
+}
 
 
     
